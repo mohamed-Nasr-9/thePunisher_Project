@@ -2,5 +2,6 @@
 
 return [
     App\Providers\AppServiceProvider::class,
-    App\Providers\FortifyServiceProvider::class,
+    App\Providers\ProductService::class,
+    App\Providers\Services\ProductService::class,
 ];
